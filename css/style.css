@@ -2,46 +2,15 @@ body {
   background-color: lightslategray;
 }
 
-h1{
-  text-align: center;
-  font-size: 30px;
-  font-style: italic;
-  box-shadow: 5mm;
-}
-
-main{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-
-
-
-p1 {
-  border: 20px orange;
-  padding: 50px;
-  margin: 10px;
-  font-size: 25px;
-  }
-
-p2 {
-  border: 20px orange;
-  padding: 50px;
-  margin: 10px;
-  font-size: 25px;
+h1 {
+text-align: center;
+font-size: 2rem;
 }
 
 p3{
-  border: 20px orange;
-  padding: 50px;
-  margin: 10px;
-  font-size: 25px;
-}
-
-h2 {
-  font-size: 30px;
+  padding-top: 1rem;
+  border-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 #albums {
@@ -50,7 +19,7 @@ h2 {
   border-width: 0.25rem;
   margin-bottom: 5rem;
   margin-right: 15rem;
-  padding: 1rem 2rem;
+  padding: 0ch;
   font-family: Courier New;
   font-weight: bold;
   float: none;
@@ -58,5 +27,6 @@ h2 {
 }
 
 li{
-  list-style: decimal;
+list-style:decimal;
+
 }
