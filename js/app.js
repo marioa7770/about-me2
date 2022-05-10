@@ -44,11 +44,7 @@ var answeredCorrectly = false;
 while(attemptsRemain && !answeredCorrectly){
   var response = prompt(`You get ${attemptsRemain} attempts.How old am I?`);
   if (response === correctAnswer){
-    alert('That is correct!');{
-    //   else if(answer < correctAnswer){
-    //     alert("That is too low!");
-    //   }
-    // }
+    alert('That is correct!');
     answeredCorrectly = true;
   }
   attemptsRemain--;
