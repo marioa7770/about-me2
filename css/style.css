@@ -1,17 +1,24 @@
+
+
+H1 {
+  text-align: center;
+  font-size: 2rem;
+  box-sizing: border-box;
+  background-color: orange;
+
+
+}
+
+H2 {
+  font-size: 3rem;
+}
+
 body {
-  background-color: lightslategray;
+  background-color: slategray;
+  margin: 5rem;
 }
 
-h1 {
-text-align: center;
-font-size: 2rem;
-}
 
-p3{
-  padding-top: 1rem;
-  border-top: 1rem;
-  margin-bottom: 2rem;
-}
 
 #albums {
   border-style:groove;
@@ -19,14 +26,20 @@ p3{
   border-width: 0.25rem;
   margin-bottom: 5rem;
   margin-right: 15rem;
-  padding: 0ch;
+  padding: 1rem;
   font-family: Courier New;
   font-weight: bold;
-  float: none;
+  float:inline-end;
   align: center;
 }
 
-li{
-list-style:decimal;
-
+ul { 
+  padding-left: 40px; 
+  list-style:circle;
 }
+
+ol {
+  list-style: decimal;
+  padding-left: 40px;
+}
+
