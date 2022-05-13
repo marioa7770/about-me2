@@ -82,7 +82,7 @@ let sodasILike = ["dr pepper", "dietcoke", "cokezero", "mrpibb", "dietpepsi"];
       if (guesses === sodasILike[i]) {
         points++;
         alert('You got it right!');
-        correctAnswer = true; //changed "correctAnswer" to true to exit out of loop when a correct answer is typed; this changes the value of !correctAnswer, which was true in line 114, to false so the code stops running
+        correctAnswer = true; 
       }
     } if (correctAnswer === false) {
       alert(`Sorry, try again. You have ${attempts} attempts left.`);
